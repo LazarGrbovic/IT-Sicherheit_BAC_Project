@@ -1,0 +1,81 @@
+<!-- <h1>Edit Entry</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+        <div class="form-group col-5">
+            <label>Upload</label>
+            <input type="number" formControlName="upload" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.upload.errors }" />
+            <div *ngIf="submitted && f.upload.errors" class="invalid-feedback">
+                <div *ngIf="f.upload.errors.required">Upload is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Download</label>
+            <input type="number" formControlName="download" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.download.errors }" />
+            <div *ngIf="submitted && f.download.errors" class="invalid-feedback">
+                <div *ngIf="f.download.errors.required">Download is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Provider</label>
+            <input type="text" formControlName="provider" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.provider.errors }" />
+            <div *ngIf="submitted && f.provider.errors" class="invalid-feedback">
+                <div *ngIf="f.provider.errors.required">Provider is required</div>
+            </div>
+        </div>  
+        <div class="form-group col-5">
+            <label>Test Provider</label>
+            <input type="text" formControlName="testProvider" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.testProvider.errors }" />
+            <div *ngIf="submitted && f.testProvider.errors" class="invalid-feedback">
+                <div *ngIf="f.testProvider.errors.required">Test Provider is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Ping</label>
+            <input type="number" formControlName="ping" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ping.errors }" />
+            <div *ngIf="submitted && f.ping.errors" class="invalid-feedback">
+                <div *ngIf="f.ping.errors.required">Ping is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Datum</label>
+            <input type="text" formControlName="datum" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.datum.errors }" />
+            <div *ngIf="submitted && f.datum.errors" class="invalid-feedback">
+                <div *ngIf="f.datum.errors.required">Datum is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>OS</label>
+            <input type="text" formControlName="os" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.os.errors }" />
+            <div *ngIf="submitted && f.os.errors" class="invalid-feedback">
+                <div *ngIf="f.os.errors.required">OS is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Comment</label>
+            <input type="text" formControlName="comment" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.comment.errors }" />
+            <div *ngIf="submitted && f.comment.errors" class="invalid-feedback">
+                <div *ngIf="f.comment.errors.required">Comment is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Note</label>
+            <select formControlName="note" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.note.errors }">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <div *ngIf="submitted && f.note.errors" class="invalid-feedback">
+                <div *ngIf="f.note.errors.required">Note is required</div>
+            </div>            
+        </div>
+        <div class="form-group">
+            <button [disabled]="loading" class="btn btn-primary">
+                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                Save
+            </button>
+            <a routerLink="/entries" class="btn btn-link">Cancel</a>
+        </div>
+    </div>     
+</form> -->

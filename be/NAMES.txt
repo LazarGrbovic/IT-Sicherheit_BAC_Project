@@ -1,0 +1,5 @@
+dbName: Speed_Internet_Test_DB
+tableName: Speed_Test_Data
+tableName: Users
+dbHost: localhost
+dbPort: 28015

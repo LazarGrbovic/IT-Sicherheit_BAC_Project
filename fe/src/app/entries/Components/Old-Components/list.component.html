@@ -1,0 +1,59 @@
+<!-- <h1>Entries</h1>
+<a routerLink="add" class="btn btn-sm btn-success mb-2">Add Entry</a>
+<button class="btn btn-sm btn-primary mb-2" (click)="sortEntries()">Sort Entries</button>
+<a routerLink="statistics" class="btn btn-sm btn-info mb-2">Statistics</a> -->
+<!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
+<!-- <div> -->
+
+    <!-- https://blog.kevinchisholm.com/angular/get-value-selected-dropdown-menu-item/ -->
+    <!-- https://trungk18.com/experience/angular-select-option-value-ngvalue/ -->
+    <!-- <select class="custom-select" (change)="setQuerySortingByColumn($event)"> -->
+        <!-- https://material.angular.io/components/select/examples -->
+        <!-- <option value="" disabled>Choose column</option>
+        <option *ngFor="let queryOption of queryOptions"  [value]="queryOption.value">{{queryOption.name}}</option>
+     </select>
+
+     <select class="custom-select" (change)="setQueryAscDesc($event)">        
+        <option value="" disabled>Choose Order</option>
+        <option *ngFor="let option of queryAscDescOptions"  [value]="option.value">{{option.name}}</option>
+     </select>
+    
+<table class="table table-striped">
+    <thead>
+        <tr>            
+            <th style="width: 30%">Upload</th>
+            <th style="width: 30%">Download</th>
+            <th style="width: 30%">Provider</th>
+            <th style="width: 30%">TestProvider</th>
+            <th style="width: 30%">Ping</th>
+            <th style="width: 30%">Datum</th>
+            <th style="width: 30%">OS</th>
+            <th style="width: 30%">Comment</th>
+            <th style="width: 30%">Note</th>
+            <th style="width: 10%"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let entry of entries">
+            <td>{{entry.upload}}</td>
+            <td>{{entry.download}}</td>
+            <td>{{entry.provider}}</td>
+            <td>{{entry.testProvider}}</td>
+            <td>{{entry.ping}}</td>
+            <td>{{entry.datum}}</td>
+            <td>{{entry.os}}</td>
+            <td>{{entry.comment}}</td>
+            <td>{{entry.note}}</td>
+            <td style="white-space: nowrap">
+                <a routerLink="edit/{{entry.id}}" class="btn btn-sm btn-primary mr-1">Edit</a>                
+                <button (click)="deleteEntry(entry.id)" class="btn btn-sm btn-danger btn-delete-user">Delete                    
+                </button>
+            </td>
+        </tr>
+        <tr *ngIf="!entries">
+            <td colspan="4" class="text-center">
+                <span class="spinner-border spinner-border-lg align-center"></span>
+            </td>
+        </tr>
+    </tbody>
+</table> -->

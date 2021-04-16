@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>About Speed Test Tracker</h1> 
+<div mat-dialog-content> 
+  <p>Information about my webiste project :)</p>  
+  <ul>
+    <li>Name of the project is: "{{ Name }}"</li>
+    <li>The version of the App is: {{ Version }}</li>
+    <li>The version of the Angular App is: "{{ AngularVersion }}"</li>    
+    
+  </ul>     
+  <img src="../assets/cover.png" style="height: 200px; width: 400px;">
+  <hr>  
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quasi quia tenetur ad expedita similique nobis earum officia veniam modi, et vel dignissimos ab, est ipsum molestias quae necessitatibus. Harum?
+</div> 
+<div mat-dialog-actions>   
+    <!-- <button class="mat-raised-button" (click)="close()">Close</button> -->
+    <button mat-button (click)="onClose()">Close</button> 
+</div> 

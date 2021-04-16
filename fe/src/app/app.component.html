@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a class="nav-item nav-link" routerLink="/user/login" routerLinkActive="active">Login</a>
+        <a class="nav-item nav-link" routerLink="/user/add" routerLinkActive="active">Register</a>
+        <a class="nav-item nav-link" (click)="openDialog()">About</a>
+        <div *ngIf="showLogout" class="navbar-nav">
+            <a class="nav-item nav-link" routerLink="/user/edit/{{userId.id}}">Edit profile</a>            
+            <a class="nav-item nav-link" (click)="hideLogout()">Logout</a>                        
+        </div>        
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="app-container bg-light">
+    <alert></alert>
+    <router-outlet></router-outlet>
+</div>
