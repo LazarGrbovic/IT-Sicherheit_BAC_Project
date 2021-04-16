@@ -1,0 +1,716 @@
+2021-01-26T01:01:05.209614000 0.024193s notice: In recursion: removing file 'C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\tmp'
+2021-01-26T01:01:05.211613300 0.026792s warn: Trying to delete non-existent file 'C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\tmp'
+2021-01-26T01:01:05.214964000 0.029547s notice: Initializing directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-01-26T01:01:05.215988400 0.031185s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data' did not already exist or is empty.)
+2021-01-26T01:01:05.216951400 0.031440s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-01-26T01:01:05.216951401 0.031537s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-01-26T01:01:05.216951402 0.031614s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-01-26T01:01:05.467770000 0.282650s info: Automatically using cache size of 693 MB
+2021-01-26T01:01:05.490127200 0.304677s notice: Listening for intracluster connections on port 29015
+2021-01-26T01:01:05.494220000 0.309245s notice: Listening for client driver connections on port 28015
+2021-01-26T01:01:05.495170200 0.309903s notice: Listening for administrative HTTP connections on port 8080
+2021-01-26T01:01:05.495170201 0.309914s notice: Listening on cluster address: 127.0.0.1
+2021-01-26T01:01:05.495170202 0.309917s notice: Listening on driver address: 127.0.0.1
+2021-01-26T01:01:05.495170203 0.309922s notice: Listening on http address: 127.0.0.1
+2021-01-26T01:01:05.495170204 0.309924s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-26T01:01:05.495170205 0.309929s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-01-26T01:01:06.313505900 1.128591s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-01-26T01:04:05.673545700 0.014890s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-01-26T01:04:05.673545701 0.015071s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-01-26T01:04:05.673545702 0.015179s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-01-26T01:04:05.685511400 0.027095s info: Automatically using cache size of 787 MB
+2021-01-26T01:04:05.691494900 0.032944s notice: Listening for intracluster connections on port 29015
+2021-01-26T01:04:05.692492900 0.034232s notice: Listening for client driver connections on port 28015
+2021-01-26T01:04:05.692492901 0.034370s notice: Listening for administrative HTTP connections on port 8080
+2021-01-26T01:04:05.692492902 0.034373s notice: Listening on cluster address: 127.0.0.1
+2021-01-26T01:04:05.692492903 0.034375s notice: Listening on driver address: 127.0.0.1
+2021-01-26T01:04:05.692492904 0.034375s notice: Listening on http address: 127.0.0.1
+2021-01-26T01:04:05.692492905 0.034377s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-26T01:04:05.692492906 0.034378s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-01-26T01:04:06.296507600 0.638085s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-01-26T01:36:12.966139000 1927.307774s notice: Server got Control-C; shutting down...
+2021-01-26T01:36:12.966139001 1927.307924s notice: Shutting down client connections...
+2021-01-26T01:36:12.966139002 1927.308085s notice: All client connections closed.
+2021-01-26T01:36:12.966139003 1927.308087s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-26T01:36:12.967135100 1927.308488s notice: Storage engine shut down.
+2021-02-03T01:25:25.216387800 0.029358s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-03T01:25:25.216387801 0.029797s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-03T01:25:25.216387802 0.029863s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-03T01:25:25.238356200 0.051167s info: Automatically using cache size of 320 MB
+2021-02-03T01:25:25.247333000 0.060091s notice: Listening for intracluster connections on port 29015
+2021-02-03T01:25:25.254313500 0.067890s notice: Listening for client driver connections on port 28015
+2021-02-03T01:25:25.255311300 0.068007s notice: Listening for administrative HTTP connections on port 8080
+2021-02-03T01:25:25.255311301 0.068008s notice: Listening on cluster address: 127.0.0.1
+2021-02-03T01:25:25.255311302 0.068010s notice: Listening on driver address: 127.0.0.1
+2021-02-03T01:25:25.255311303 0.068011s notice: Listening on http address: 127.0.0.1
+2021-02-03T01:25:25.255311304 0.068013s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-03T01:25:25.255311305 0.068014s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-03T01:25:25.999861900 0.812729s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-06T06:36:18.682638400 0.028255s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-06T06:36:18.683388800 0.028688s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-06T06:36:18.683388801 0.028728s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-06T06:36:18.704588700 0.050034s info: Automatically using cache size of 1635 MB
+2021-02-06T06:36:18.713565100 0.058684s notice: Listening for intracluster connections on port 29015
+2021-02-06T06:36:18.720386600 0.066351s notice: Listening for client driver connections on port 28015
+2021-02-06T06:36:18.721388300 0.066617s notice: Listening for administrative HTTP connections on port 8080
+2021-02-06T06:36:18.721388301 0.066620s notice: Listening on cluster address: 127.0.0.1
+2021-02-06T06:36:18.721388302 0.066621s notice: Listening on driver address: 127.0.0.1
+2021-02-06T06:36:18.721388303 0.066623s notice: Listening on http address: 127.0.0.1
+2021-02-06T06:36:18.721388304 0.066624s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-06T06:36:18.721388305 0.066626s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-06T06:36:20.352083400 1.697962s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-06T06:48:02.614324500 703.959711s notice: Server got Control-C; shutting down...
+2021-02-06T06:48:02.614324501 703.960244s notice: Shutting down client connections...
+2021-02-06T06:48:02.614324502 703.960344s notice: All client connections closed.
+2021-02-06T06:48:02.614324503 703.960346s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-06T06:48:02.618325100 703.964250s notice: Storage engine shut down.
+2021-02-06T06:48:05.790910800 0.011313s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-06T06:48:05.790910801 0.011445s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-06T06:48:05.790910802 0.011475s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-06T06:48:05.801882300 0.021893s info: Automatically using cache size of 1479 MB
+2021-02-06T06:48:05.809861700 0.029971s notice: Listening for intracluster connections on port 29015
+2021-02-06T06:48:05.810857700 0.031032s notice: Listening for client driver connections on port 28015
+2021-02-06T06:48:05.810857701 0.031184s notice: Listening for administrative HTTP connections on port 8080
+2021-02-06T06:48:05.810857702 0.031187s notice: Listening on cluster address: 127.0.0.1
+2021-02-06T06:48:05.810857703 0.031188s notice: Listening on driver address: 127.0.0.1
+2021-02-06T06:48:05.810857704 0.031190s notice: Listening on http address: 127.0.0.1
+2021-02-06T06:48:05.810857705 0.031193s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-06T06:48:05.810857706 0.031195s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-06T06:48:06.366890500 0.587244s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T05:43:52.137027400 0.011929s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T05:43:52.137027401 0.012340s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T05:43:52.137027402 0.012418s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T05:43:52.147433700 0.022049s info: Automatically using cache size of 1362 MB
+2021-02-07T05:43:52.150981600 0.026236s notice: Listening for intracluster connections on port 29015
+2021-02-07T05:43:52.152972600 0.027652s notice: Listening for client driver connections on port 28015
+2021-02-07T05:43:52.152972601 0.027803s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T05:43:52.152972602 0.027805s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T05:43:52.152972603 0.027808s notice: Listening on driver address: 127.0.0.1
+2021-02-07T05:43:52.152972604 0.027809s notice: Listening on http address: 127.0.0.1
+2021-02-07T05:43:52.152972605 0.027812s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T05:43:52.152972606 0.027813s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T05:43:52.952605800 0.827291s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T06:32:24.433818800 2912.308924s notice: Server got Control-C; shutting down...
+2021-02-07T06:32:24.434817400 2912.309533s notice: Shutting down client connections...
+2021-02-07T06:32:24.435231200 2912.309938s notice: All client connections closed.
+2021-02-07T06:32:24.435231201 2912.309943s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-07T06:32:24.441561600 2912.316252s notice: Storage engine shut down.
+2021-02-07T06:32:35.615408900 0.015549s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T06:32:35.615408901 0.015729s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T06:32:35.615408902 0.015802s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T06:32:35.627412500 0.027582s info: Automatically using cache size of 1182 MB
+2021-02-07T06:32:35.632397400 0.032899s notice: Listening for intracluster connections on port 29015
+2021-02-07T06:32:35.633395200 0.034097s notice: Listening for client driver connections on port 28015
+2021-02-07T06:32:35.634392500 0.034262s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T06:32:35.634392501 0.034266s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T06:32:35.634392502 0.034267s notice: Listening on driver address: 127.0.0.1
+2021-02-07T06:32:35.634392503 0.034269s notice: Listening on http address: 127.0.0.1
+2021-02-07T06:32:35.634392504 0.034272s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T06:32:35.634392505 0.034274s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T06:32:36.490776800 0.890732s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T07:15:52.439002100 2596.838732s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: Starting a new Raft election for term 1.
+2021-02-07T07:15:52.439002101 2596.839315s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: Added replica on this server.
+2021-02-07T07:15:52.440997100 2596.841146s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: Starting a new Raft election for term 1.
+2021-02-07T07:15:52.440997101 2596.841239s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: Added replica on this server.
+2021-02-07T07:15:52.445984100 2596.846505s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T07:15:52.445984101 2596.846547s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T07:16:51.404632200 2655.804436s notice: Server got Control-C; shutting down...
+2021-02-07T07:16:51.404632201 2655.804612s notice: Shutting down client connections...
+2021-02-07T07:16:51.406625900 2655.806352s notice: All client connections closed.
+2021-02-07T07:16:51.406625901 2655.806355s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-07T07:16:51.412485600 2655.812964s notice: Storage engine shut down.
+2021-02-07T07:16:54.671637200 0.015853s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T07:16:54.671637201 0.016019s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T07:16:54.671637202 0.016079s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T07:16:54.689589500 0.033084s info: Automatically using cache size of 895 MB
+2021-02-07T07:16:54.693579000 0.037618s notice: Listening for intracluster connections on port 29015
+2021-02-07T07:16:54.726017400 0.070364s notice: Listening for client driver connections on port 28015
+2021-02-07T07:16:54.727014800 0.070533s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T07:16:54.727014801 0.070535s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T07:16:54.727014802 0.070535s notice: Listening on driver address: 127.0.0.1
+2021-02-07T07:16:54.727014803 0.070536s notice: Listening on http address: 127.0.0.1
+2021-02-07T07:16:54.727014804 0.070536s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T07:16:54.727014805 0.070537s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T07:16:55.333681400 0.677418s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T07:16:55.993012100 1.336610s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: Starting a new Raft election for term 2.
+2021-02-07T07:16:55.998324000 1.342048s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T07:16:56.606244900 1.949863s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: Starting a new Raft election for term 2.
+2021-02-07T07:16:56.611244000 1.955140s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T07:30:00.733245700 786.077506s info: Table 4609d344-f7c1-4ac0-a48f-ca5acd53e22e: Starting a new Raft election for term 1.
+2021-02-07T07:30:00.733245701 786.077644s info: Table 4609d344-f7c1-4ac0-a48f-ca5acd53e22e: Added replica on this server.
+2021-02-07T07:30:00.735214500 786.079578s info: Table fa1aad35-33bf-42d0-b34d-d14f0e855d4d: Starting a new Raft election for term 1.
+2021-02-07T07:30:00.736212300 786.079780s info: Table fa1aad35-33bf-42d0-b34d-d14f0e855d4d: Added replica on this server.
+2021-02-07T07:30:00.741197000 786.084686s info: Table 4609d344-f7c1-4ac0-a48f-ca5acd53e22e: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T07:30:00.743192000 786.087200s info: Table fa1aad35-33bf-42d0-b34d-d14f0e855d4d: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T07:32:02.166163200 907.510047s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\4914412e-7b3f-4cc7-be1e-3c548ba97bd1
+2021-02-07T07:32:02.166163201 907.510052s info: Table 4914412e-7b3f-4cc7-be1e-3c548ba97bd1: Deleted the table.
+2021-02-07T07:32:02.174012900 907.518172s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\da8dfdfa-5d72-40bb-9f10-95052be92337
+2021-02-07T07:32:02.174012901 907.518177s info: Table da8dfdfa-5d72-40bb-9f10-95052be92337: Deleted the table.
+2021-02-07T07:32:24.160422500 929.504635s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\4609d344-f7c1-4ac0-a48f-ca5acd53e22e
+2021-02-07T07:32:24.160422501 929.504641s info: Table 4609d344-f7c1-4ac0-a48f-ca5acd53e22e: Deleted the table.
+2021-02-07T07:32:24.168401600 929.512744s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\fa1aad35-33bf-42d0-b34d-d14f0e855d4d
+2021-02-07T07:32:24.168401601 929.512749s info: Table fa1aad35-33bf-42d0-b34d-d14f0e855d4d: Deleted the table.
+2021-02-07T07:32:40.084259900 945.428326s notice: Server got Control-C; shutting down...
+2021-02-07T07:32:40.084259901 945.428469s notice: Shutting down client connections...
+2021-02-07T07:32:40.085254300 945.428896s notice: All client connections closed.
+2021-02-07T07:32:40.085254301 945.428901s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-07T07:32:40.085254302 945.429322s notice: Storage engine shut down.
+2021-02-07T07:32:48.492314000 0.011594s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T07:32:48.492314001 0.011684s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T07:32:48.492314002 0.011710s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T07:32:48.500957500 0.020743s info: Automatically using cache size of 1026 MB
+2021-02-07T07:32:48.504946400 0.024735s notice: Listening for intracluster connections on port 29015
+2021-02-07T07:32:48.505943700 0.025566s notice: Listening for client driver connections on port 28015
+2021-02-07T07:32:48.505943701 0.025663s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T07:32:48.505943702 0.025664s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T07:32:48.505943703 0.025665s notice: Listening on driver address: 127.0.0.1
+2021-02-07T07:32:48.505943704 0.025666s notice: Listening on http address: 127.0.0.1
+2021-02-07T07:32:48.505943705 0.025667s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T07:32:48.505943706 0.025668s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T07:32:49.066834300 0.586732s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T07:33:14.686439300 26.205937s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: Starting a new Raft election for term 1.
+2021-02-07T07:33:14.686439301 26.206178s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: Added replica on this server.
+2021-02-07T07:33:14.702063900 26.221795s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: Starting a new Raft election for term 1.
+2021-02-07T07:33:14.702063901 26.221940s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: Added replica on this server.
+2021-02-07T07:33:14.706900000 26.226428s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T07:33:14.709488500 26.228949s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T08:06:05.981865100 0.012213s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T08:06:05.981865101 0.012432s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T08:06:05.981865102 0.012542s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T08:06:05.992864900 0.022977s info: Automatically using cache size of 1590 MB
+2021-02-07T08:06:05.996855700 0.027294s notice: Listening for intracluster connections on port 29015
+2021-02-07T08:06:06.008822500 0.038767s notice: Listening for client driver connections on port 28015
+2021-02-07T08:06:06.008822501 0.038900s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T08:06:06.008822502 0.038901s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T08:06:06.008822503 0.038902s notice: Listening on driver address: 127.0.0.1
+2021-02-07T08:06:06.008822504 0.038902s notice: Listening on http address: 127.0.0.1
+2021-02-07T08:06:06.008822505 0.038903s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T08:06:06.008822506 0.038903s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T08:06:06.593126500 0.623807s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T08:06:07.084463100 1.114728s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: Starting a new Raft election for term 2.
+2021-02-07T08:06:07.092602200 1.122920s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T08:06:07.537717500 1.567905s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: Starting a new Raft election for term 2.
+2021-02-07T08:06:07.544702500 1.574894s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T08:20:49.670619100 883.701015s notice: Server got Control-C; shutting down...
+2021-02-07T08:20:49.670619101 883.701246s notice: Shutting down client connections...
+2021-02-07T08:20:49.671616900 883.701441s notice: All client connections closed.
+2021-02-07T08:20:49.671616901 883.701448s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-07T08:20:49.677599700 883.707772s notice: Storage engine shut down.
+2021-02-07T08:20:52.237477700 0.012226s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T08:20:52.238476400 0.012361s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T08:20:52.238476401 0.012459s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T08:20:52.247452300 0.021336s info: Automatically using cache size of 1141 MB
+2021-02-07T08:20:52.251441700 0.025464s notice: Listening for intracluster connections on port 29015
+2021-02-07T08:20:52.265404700 0.039832s notice: Listening for client driver connections on port 28015
+2021-02-07T08:20:52.265404701 0.039955s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T08:20:52.265404702 0.039956s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T08:20:52.265404703 0.039957s notice: Listening on driver address: 127.0.0.1
+2021-02-07T08:20:52.265404704 0.039957s notice: Listening on http address: 127.0.0.1
+2021-02-07T08:20:52.265404705 0.039958s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T08:20:52.265404706 0.039958s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T08:20:53.214063300 0.988796s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T08:20:53.529953900 1.304057s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: Starting a new Raft election for term 3.
+2021-02-07T08:20:53.536732100 1.311138s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: This server is Raft leader for term 3. Latest log index is 6.
+2021-02-07T08:20:54.225041700 1.999177s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: Starting a new Raft election for term 3.
+2021-02-07T08:20:54.230028100 2.004249s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: This server is Raft leader for term 3. Latest log index is 6.
+2021-02-07T08:22:15.903936300 83.678441s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\7b616194-3bb3-4dc1-8d85-4923b014a16f
+2021-02-07T08:22:15.903936301 83.678447s info: Table 7b616194-3bb3-4dc1-8d85-4923b014a16f: Deleted the table.
+2021-02-07T08:23:06.140877900 133.915580s notice: Removing file C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data\\81ee88f5-e318-4f7a-be9d-d3a6d015832c
+2021-02-07T08:23:06.140877901 133.915585s info: Table 81ee88f5-e318-4f7a-be9d-d3a6d015832c: Deleted the table.
+2021-02-07T08:23:17.562335000 145.336229s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 1.
+2021-02-07T08:23:17.562335001 145.336384s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Added replica on this server.
+2021-02-07T08:23:17.564653400 145.338545s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 1.
+2021-02-07T08:23:17.564653401 145.338676s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Added replica on this server.
+2021-02-07T08:23:17.569269700 145.343259s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T08:23:17.575131200 145.349615s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 1. Latest log index is 0.
+2021-02-07T08:33:43.350857100 0.011970s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T08:33:43.350857101 0.012097s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T08:33:43.350857102 0.012196s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T08:33:43.360819600 0.021820s info: Automatically using cache size of 2797 MB
+2021-02-07T08:33:43.364808900 0.026047s notice: Listening for intracluster connections on port 29015
+2021-02-07T08:33:43.376777400 0.038247s notice: Listening for client driver connections on port 28015
+2021-02-07T08:33:43.376777401 0.038420s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T08:33:43.376777402 0.038422s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T08:33:43.376777403 0.038422s notice: Listening on driver address: 127.0.0.1
+2021-02-07T08:33:43.376777404 0.038428s notice: Listening on http address: 127.0.0.1
+2021-02-07T08:33:43.376777405 0.038429s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T08:33:43.376777406 0.038430s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T08:33:43.955117600 0.615869s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T08:33:44.687745200 1.348687s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 2.
+2021-02-07T08:33:44.694146500 1.355246s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T08:33:45.053733200 1.714568s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 2.
+2021-02-07T08:33:45.060585900 1.721363s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 2. Latest log index is 3.
+2021-02-07T16:35:59.477913900 0.015818s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-07T16:35:59.477913901 0.015941s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-07T16:35:59.477913902 0.016158s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-07T16:35:59.488883700 0.027056s info: Automatically using cache size of 2019 MB
+2021-02-07T16:35:59.498867800 0.036795s notice: Listening for intracluster connections on port 29015
+2021-02-07T16:35:59.513453200 0.051637s notice: Listening for client driver connections on port 28015
+2021-02-07T16:35:59.513453201 0.051739s notice: Listening for administrative HTTP connections on port 8080
+2021-02-07T16:35:59.513453202 0.051742s notice: Listening on cluster address: 127.0.0.1
+2021-02-07T16:35:59.513453203 0.051742s notice: Listening on driver address: 127.0.0.1
+2021-02-07T16:35:59.513453204 0.051769s notice: Listening on http address: 127.0.0.1
+2021-02-07T16:35:59.513453205 0.051770s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-07T16:35:59.513453206 0.051771s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-07T16:36:00.142389500 0.680264s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-07T16:36:00.547058800 1.085145s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 3.
+2021-02-07T16:36:00.553880900 1.092366s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 3. Latest log index is 6.
+2021-02-07T16:36:00.901282100 1.439232s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 3.
+2021-02-07T16:36:00.907628900 1.445579s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 3. Latest log index is 6.
+2021-02-08T04:21:38.913208500 0.019687s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-08T04:21:38.914209300 0.020270s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-08T04:21:38.916203200 0.022398s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-08T04:21:38.930699800 0.036636s info: Automatically using cache size of 2115 MB
+2021-02-08T04:21:38.934689300 0.041364s notice: Listening for intracluster connections on port 29015
+2021-02-08T04:21:38.967858800 0.074103s notice: Listening for client driver connections on port 28015
+2021-02-08T04:21:38.967858801 0.074206s notice: Listening for administrative HTTP connections on port 8080
+2021-02-08T04:21:38.967858802 0.074208s notice: Listening on cluster address: 127.0.0.1
+2021-02-08T04:21:38.967858803 0.074239s notice: Listening on driver address: 127.0.0.1
+2021-02-08T04:21:38.967858804 0.074240s notice: Listening on http address: 127.0.0.1
+2021-02-08T04:21:38.967858805 0.074241s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-08T04:21:38.967858806 0.074241s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-08T04:21:39.760508200 0.866758s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-08T04:21:40.216002900 1.322066s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 4.
+2021-02-08T04:21:40.222629500 1.329253s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 4. Latest log index is 9.
+2021-02-08T04:21:40.811971900 1.918225s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 4.
+2021-02-08T04:21:40.819043300 1.925348s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 4. Latest log index is 9.
+2021-02-08T05:20:01.492076900 0.011433s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-08T05:20:01.492076901 0.011623s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-08T05:20:01.492076902 0.011784s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-08T05:20:01.501524600 0.021070s info: Automatically using cache size of 2459 MB
+2021-02-08T05:20:01.510042800 0.029299s notice: Listening for intracluster connections on port 29015
+2021-02-08T05:20:01.526117700 0.045436s notice: Listening for client driver connections on port 28015
+2021-02-08T05:20:01.526117701 0.045538s notice: Listening for administrative HTTP connections on port 8080
+2021-02-08T05:20:01.526117702 0.045539s notice: Listening on cluster address: 127.0.0.1
+2021-02-08T05:20:01.526117703 0.045540s notice: Listening on driver address: 127.0.0.1
+2021-02-08T05:20:01.526117704 0.045569s notice: Listening on http address: 127.0.0.1
+2021-02-08T05:20:01.526117705 0.045570s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-08T05:20:01.526117706 0.045571s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-08T05:20:02.421219900 0.940201s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-08T05:20:02.541239600 1.060526s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 5.
+2021-02-08T05:20:02.548291500 1.068076s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 5. Latest log index is 12.
+2021-02-08T05:20:03.506688100 2.025668s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 5.
+2021-02-08T05:20:03.512290600 2.031323s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 5. Latest log index is 12.
+2021-02-08T21:38:49.570138600 58725.497690s notice: Server got Control-C; shutting down...
+2021-02-08T21:38:49.573129200 58725.499937s notice: Shutting down client connections...
+2021-02-08T21:38:49.574126700 58725.501600s notice: All client connections closed.
+2021-02-08T21:38:49.574126701 58725.501608s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-08T21:38:49.600057100 58725.527589s notice: Storage engine shut down.
+2021-02-08T22:10:29.302020500 0.019825s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-08T22:10:29.302020501 0.020064s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-08T22:10:29.303010500 0.020341s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-08T22:10:29.319963200 0.037403s info: Automatically using cache size of 2140 MB
+2021-02-08T22:10:29.325949300 0.043535s notice: Listening for intracluster connections on port 29015
+2021-02-08T22:10:29.351124300 0.068605s notice: Listening for client driver connections on port 28015
+2021-02-08T22:10:29.351124301 0.068713s notice: Listening for administrative HTTP connections on port 8080
+2021-02-08T22:10:29.351124302 0.068715s notice: Listening on cluster address: 127.0.0.1
+2021-02-08T22:10:29.351124303 0.068716s notice: Listening on driver address: 127.0.0.1
+2021-02-08T22:10:29.351124304 0.068716s notice: Listening on http address: 127.0.0.1
+2021-02-08T22:10:29.351124305 0.068717s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-08T22:10:29.351124306 0.068723s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-08T22:10:29.921380300 0.639130s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-08T22:10:30.555003000 1.272289s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 6.
+2021-02-08T22:10:30.559222800 1.277199s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 6. Latest log index is 15.
+2021-02-08T22:10:31.057861100 1.775201s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 6.
+2021-02-08T22:10:31.062921400 1.780417s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 6. Latest log index is 15.
+2021-02-08T22:14:23.302207700 0.024526s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-08T22:14:23.302207701 0.024731s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-08T22:14:23.302207702 0.025013s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-08T22:14:23.316170000 0.038334s info: Automatically using cache size of 2281 MB
+2021-02-08T22:14:23.326149600 0.048780s notice: Listening for intracluster connections on port 29015
+2021-02-08T22:14:23.361768900 0.083961s notice: Listening for client driver connections on port 28015
+2021-02-08T22:14:23.361768901 0.084324s notice: Listening for administrative HTTP connections on port 8080
+2021-02-08T22:14:23.361768902 0.084329s notice: Listening on cluster address: 127.0.0.1
+2021-02-08T22:14:23.361768903 0.084331s notice: Listening on driver address: 127.0.0.1
+2021-02-08T22:14:23.361768904 0.084332s notice: Listening on http address: 127.0.0.1
+2021-02-08T22:14:23.361768905 0.084334s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-08T22:14:23.361768906 0.084348s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-08T22:14:23.886069500 0.608704s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-08T22:14:24.795525800 1.517645s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 7.
+2021-02-08T22:14:24.801406800 1.524232s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 7. Latest log index is 18.
+2021-02-08T22:14:25.105401700 1.827465s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 7.
+2021-02-08T22:14:25.110492300 1.832572s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 7. Latest log index is 18.
+2021-02-09T04:29:17.508302200 22494.230607s notice: Server got Control-C; shutting down...
+2021-02-09T04:29:17.510308600 22494.232860s notice: Shutting down client connections...
+2021-02-09T04:29:17.511312400 22494.233688s notice: All client connections closed.
+2021-02-09T04:29:17.511312401 22494.233694s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-09T04:29:17.527857300 22494.249901s notice: Storage engine shut down.
+2021-02-11T01:02:38.112321600 0.028593s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-11T01:02:38.113318800 0.029019s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-11T01:02:38.114316900 0.029820s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-11T01:02:38.137241400 0.053086s info: Automatically using cache size of 2163 MB
+2021-02-11T01:02:38.145188800 0.061137s notice: Listening for intracluster connections on port 29015
+2021-02-11T01:02:38.180155400 0.096147s notice: Listening for client driver connections on port 28015
+2021-02-11T01:02:38.181152900 0.096297s notice: Listening for administrative HTTP connections on port 8080
+2021-02-11T01:02:38.181152901 0.096298s notice: Listening on cluster address: 127.0.0.1
+2021-02-11T01:02:38.181152902 0.096299s notice: Listening on driver address: 127.0.0.1
+2021-02-11T01:02:38.181152903 0.096300s notice: Listening on http address: 127.0.0.1
+2021-02-11T01:02:38.181152904 0.096303s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-11T01:02:38.181152905 0.096310s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-11T01:02:38.831142500 0.746840s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-11T01:02:39.950240100 1.865598s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 8.
+2021-02-11T01:02:39.956987900 1.872451s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 8. Latest log index is 21.
+2021-02-11T01:02:40.069440900 1.984802s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 8.
+2021-02-11T01:02:40.077660100 1.992966s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 8. Latest log index is 21.
+2021-02-11T23:40:31.967344200 0.031869s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-11T23:40:31.968339800 0.032374s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-11T23:40:31.969339700 0.033758s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-11T23:40:31.995270200 0.059711s info: Automatically using cache size of 2739 MB
+2021-02-11T23:40:32.004244200 0.068770s notice: Listening for intracluster connections on port 29015
+2021-02-11T23:40:32.052186100 0.116629s notice: Listening for client driver connections on port 28015
+2021-02-11T23:40:32.052186101 0.116751s notice: Listening for administrative HTTP connections on port 8080
+2021-02-11T23:40:32.052186102 0.116757s notice: Listening on cluster address: 127.0.0.1
+2021-02-11T23:40:32.052186103 0.116758s notice: Listening on driver address: 127.0.0.1
+2021-02-11T23:40:32.052186104 0.116759s notice: Listening on http address: 127.0.0.1
+2021-02-11T23:40:32.052186105 0.116759s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-11T23:40:32.052186106 0.116760s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-11T23:40:33.001798300 1.066659s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-11T23:40:33.170849600 1.235240s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 9.
+2021-02-11T23:40:33.179511400 1.243892s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 9. Latest log index is 24.
+2021-02-11T23:40:34.014886200 2.079202s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 9.
+2021-02-11T23:40:34.022143300 2.086615s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 9. Latest log index is 24.
+2021-02-15T19:45:34.870879900 0.028641s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-15T19:45:34.871828400 0.029066s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-15T19:45:34.871828401 0.029104s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-15T19:45:34.894353600 0.051660s info: Automatically using cache size of 2559 MB
+2021-02-15T19:45:34.902372400 0.059835s notice: Listening for intracluster connections on port 29015
+2021-02-15T19:45:34.941725800 0.099359s notice: Listening for client driver connections on port 28015
+2021-02-15T19:45:34.941725801 0.099540s notice: Listening for administrative HTTP connections on port 8080
+2021-02-15T19:45:34.941725802 0.099542s notice: Listening on cluster address: 127.0.0.1
+2021-02-15T19:45:34.941725803 0.099559s notice: Listening on driver address: 127.0.0.1
+2021-02-15T19:45:34.941725804 0.099560s notice: Listening on http address: 127.0.0.1
+2021-02-15T19:45:34.941725805 0.099561s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-15T19:45:34.941725806 0.099568s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-15T19:45:36.095929300 1.253493s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-15T19:45:36.272349100 1.429709s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 10.
+2021-02-15T19:45:36.279101800 1.436438s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 10.
+2021-02-15T19:45:36.280978100 1.438050s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 10. Latest log index is 27.
+2021-02-15T19:45:36.287733100 1.445229s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 10. Latest log index is 27.
+2021-02-15T23:17:20.136038200 12711.138047s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-15T23:17:20.192907800 12711.194355s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-16T04:00:17.392272400 0.028683s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-16T04:00:17.393271000 0.029147s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-16T04:00:17.394267800 0.030254s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-16T04:00:17.416284900 0.052301s info: Automatically using cache size of 3414 MB
+2021-02-16T04:00:17.424263000 0.059740s notice: Listening for intracluster connections on port 29015
+2021-02-16T04:00:17.463969200 0.099789s notice: Listening for client driver connections on port 28015
+2021-02-16T04:00:17.463969201 0.099889s notice: Listening for administrative HTTP connections on port 8080
+2021-02-16T04:00:17.463969202 0.099895s notice: Listening on cluster address: 127.0.0.1
+2021-02-16T04:00:17.463969203 0.099895s notice: Listening on driver address: 127.0.0.1
+2021-02-16T04:00:17.463969204 0.099896s notice: Listening on http address: 127.0.0.1
+2021-02-16T04:00:17.463969205 0.099897s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-16T04:00:17.463969206 0.099898s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-16T04:00:18.651247100 1.286560s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-16T04:00:19.355284100 1.990705s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 11.
+2021-02-16T04:00:19.361150700 1.996683s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 11. Latest log index is 30.
+2021-02-16T04:00:19.415253100 2.050719s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 11.
+2021-02-16T04:00:19.420479400 2.055948s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 11. Latest log index is 30.
+2021-02-16T18:48:07.892595600 0.031871s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-16T18:48:07.892595601 0.032288s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-16T18:48:07.893591400 0.033157s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-16T18:48:07.916906200 0.056397s info: Automatically using cache size of 4114 MB
+2021-02-16T18:48:07.925571100 0.065130s notice: Listening for intracluster connections on port 29015
+2021-02-16T18:48:07.967749000 0.107189s notice: Listening for client driver connections on port 28015
+2021-02-16T18:48:07.967749001 0.107308s notice: Listening for administrative HTTP connections on port 8080
+2021-02-16T18:48:07.967749002 0.107309s notice: Listening on cluster address: 127.0.0.1
+2021-02-16T18:48:07.967749003 0.107310s notice: Listening on driver address: 127.0.0.1
+2021-02-16T18:48:07.967749004 0.107311s notice: Listening on http address: 127.0.0.1
+2021-02-16T18:48:07.967749005 0.107311s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-16T18:48:07.967749006 0.107317s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-16T18:48:08.845872700 0.985027s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-16T18:48:09.501282600 1.640282s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 12.
+2021-02-16T18:48:09.507328200 1.646188s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 12. Latest log index is 33.
+2021-02-16T18:48:09.939880800 2.079639s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 12.
+2021-02-16T18:48:09.946148400 2.085137s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 12. Latest log index is 33.
+2021-02-19T18:36:44.563270400 0.029172s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-19T18:36:44.563270401 0.029601s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-19T18:36:44.563270402 0.029640s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-19T18:36:44.587458400 0.053396s info: Automatically using cache size of 1677 MB
+2021-02-19T18:36:44.595274300 0.061422s notice: Listening for intracluster connections on port 29015
+2021-02-19T18:36:44.641453000 0.107713s notice: Listening for client driver connections on port 28015
+2021-02-19T18:36:44.641453001 0.107831s notice: Listening for administrative HTTP connections on port 8080
+2021-02-19T18:36:44.641453002 0.107837s notice: Listening on cluster address: 127.0.0.1
+2021-02-19T18:36:44.641453003 0.107838s notice: Listening on driver address: 127.0.0.1
+2021-02-19T18:36:44.641453004 0.107838s notice: Listening on http address: 127.0.0.1
+2021-02-19T18:36:44.641453005 0.107839s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-19T18:36:44.641453006 0.107839s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-19T18:36:45.634018600 1.099795s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 13.
+2021-02-19T18:36:45.640675900 1.106298s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 13. Latest log index is 36.
+2021-02-19T18:36:45.708030500 1.173674s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-19T18:36:46.244587600 1.710355s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 13.
+2021-02-19T18:36:46.250256700 1.716267s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 13. Latest log index is 36.
+2021-02-20T22:00:08.155834800 0.035577s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-20T22:00:08.156864100 0.036117s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-20T22:00:08.156864101 0.036193s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-20T22:00:08.180047600 0.059047s info: Automatically using cache size of 1611 MB
+2021-02-20T22:00:08.189186600 0.067832s notice: Listening for intracluster connections on port 29015
+2021-02-20T22:00:08.230936700 0.110396s notice: Listening for client driver connections on port 28015
+2021-02-20T22:00:08.231936400 0.110874s notice: Listening for administrative HTTP connections on port 8080
+2021-02-20T22:00:08.231936401 0.110880s notice: Listening on cluster address: 127.0.0.1
+2021-02-20T22:00:08.231936402 0.110883s notice: Listening on driver address: 127.0.0.1
+2021-02-20T22:00:08.231936403 0.110886s notice: Listening on http address: 127.0.0.1
+2021-02-20T22:00:08.231936404 0.110888s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-20T22:00:08.231936405 0.110891s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-20T22:00:09.222274200 1.100865s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-20T22:00:09.885847400 1.764617s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 14.
+2021-02-20T22:00:09.892829600 1.771629s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 14. Latest log index is 39.
+2021-02-20T22:00:09.951431100 1.830201s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 14.
+2021-02-20T22:00:09.956503500 1.835752s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 14. Latest log index is 39.
+2021-02-21T05:34:34.374270400 0.024316s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-21T05:34:34.375267700 0.024935s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-21T05:34:34.375267701 0.024992s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-21T05:34:34.401363500 0.051734s info: Automatically using cache size of 547 MB
+2021-02-21T05:34:34.410341600 0.060461s notice: Listening for intracluster connections on port 29015
+2021-02-21T05:34:34.455220500 0.105463s notice: Listening for client driver connections on port 28015
+2021-02-21T05:34:34.455220501 0.105587s notice: Listening for administrative HTTP connections on port 8080
+2021-02-21T05:34:34.455220502 0.105589s notice: Listening on cluster address: 127.0.0.1
+2021-02-21T05:34:34.455220503 0.105590s notice: Listening on driver address: 127.0.0.1
+2021-02-21T05:34:34.455220504 0.105590s notice: Listening on http address: 127.0.0.1
+2021-02-21T05:34:34.455220505 0.105591s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-21T05:34:34.455220506 0.105592s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-21T05:34:35.426409400 1.076478s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-21T05:34:35.814894900 1.464571s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 15.
+2021-02-21T05:34:35.821494500 1.471889s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 15. Latest log index is 42.
+2021-02-21T05:34:36.276325000 1.926003s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 15.
+2021-02-21T05:34:36.281310500 1.931039s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 15. Latest log index is 42.
+2021-02-21T18:00:38.150399600 0.016526s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-21T18:00:38.151474600 0.016811s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-21T18:00:38.152468800 0.018690s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-21T18:00:38.163528300 0.029236s info: Automatically using cache size of 3750 MB
+2021-02-21T18:00:38.168520900 0.033949s notice: Listening for intracluster connections on port 29015
+2021-02-21T18:00:38.189627000 0.055595s notice: Listening for client driver connections on port 28015
+2021-02-21T18:00:38.189627001 0.055699s notice: Listening for administrative HTTP connections on port 8080
+2021-02-21T18:00:38.189627002 0.055706s notice: Listening on cluster address: 127.0.0.1
+2021-02-21T18:00:38.189627003 0.055707s notice: Listening on driver address: 127.0.0.1
+2021-02-21T18:00:38.189627004 0.055708s notice: Listening on http address: 127.0.0.1
+2021-02-21T18:00:38.189627005 0.055708s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-21T18:00:38.189627006 0.055709s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-21T18:00:39.219313200 1.085150s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 16.
+2021-02-21T18:00:39.229302300 1.095377s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 16. Latest log index is 45.
+2021-02-21T18:00:39.309844200 1.175428s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-21T18:00:40.166595000 2.032404s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 16.
+2021-02-21T18:00:40.174424500 2.040351s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 16. Latest log index is 45.
+2021-02-21T20:07:27.961984500 0.012756s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-21T20:07:27.961984501 0.012888s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-21T20:07:27.961984502 0.013008s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-21T20:07:27.973032800 0.024225s info: Automatically using cache size of 3721 MB
+2021-02-21T20:07:27.977023300 0.028557s notice: Listening for intracluster connections on port 29015
+2021-02-21T20:07:28.001947900 0.053214s notice: Listening for client driver connections on port 28015
+2021-02-21T20:07:28.001947901 0.053329s notice: Listening for administrative HTTP connections on port 8080
+2021-02-21T20:07:28.001947902 0.053330s notice: Listening on cluster address: 127.0.0.1
+2021-02-21T20:07:28.001947903 0.053331s notice: Listening on driver address: 127.0.0.1
+2021-02-21T20:07:28.001947904 0.053331s notice: Listening on http address: 127.0.0.1
+2021-02-21T20:07:28.001947905 0.053332s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-21T20:07:28.001947906 0.053337s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-21T20:07:28.896673000 0.947273s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-21T20:07:29.026065600 1.077069s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 17.
+2021-02-21T20:07:29.033571400 1.084938s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 17. Latest log index is 48.
+2021-02-21T20:07:29.854398600 1.905375s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 17.
+2021-02-21T20:07:29.862175400 1.913281s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 17. Latest log index is 48.
+2021-02-21T21:09:05.102930600 0.016865s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-21T21:09:05.103927200 0.016961s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-21T21:09:05.103927201 0.017165s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-21T21:09:05.113898800 0.027610s info: Automatically using cache size of 3724 MB
+2021-02-21T21:09:05.119883300 0.033316s notice: Listening for intracluster connections on port 29015
+2021-02-21T21:09:05.143820100 0.056822s notice: Listening for client driver connections on port 28015
+2021-02-21T21:09:05.143820101 0.057032s notice: Listening for administrative HTTP connections on port 8080
+2021-02-21T21:09:05.143820102 0.057034s notice: Listening on cluster address: 127.0.0.1
+2021-02-21T21:09:05.143820103 0.057036s notice: Listening on driver address: 127.0.0.1
+2021-02-21T21:09:05.143820104 0.057044s notice: Listening on http address: 127.0.0.1
+2021-02-21T21:09:05.143820105 0.057045s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-21T21:09:05.143820106 0.057046s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-21T21:09:06.221216900 1.134408s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-21T21:09:06.409440100 1.322656s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 18.
+2021-02-21T21:09:06.414424300 1.327665s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 18. Latest log index is 51.
+2021-02-21T21:09:06.437620900 1.350707s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 18.
+2021-02-21T21:09:06.441819900 1.355730s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 18. Latest log index is 51.
+2021-02-21T22:09:34.145730600 0.018866s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-21T22:09:34.145730601 0.019033s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-21T22:09:34.145730602 0.019192s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-21T22:09:34.157696800 0.030925s info: Automatically using cache size of 3876 MB
+2021-02-21T22:09:34.162684100 0.036256s notice: Listening for intracluster connections on port 29015
+2021-02-21T22:09:34.182630100 0.056150s notice: Listening for client driver connections on port 28015
+2021-02-21T22:09:34.182630101 0.056254s notice: Listening for administrative HTTP connections on port 8080
+2021-02-21T22:09:34.182630102 0.056260s notice: Listening on cluster address: 127.0.0.1
+2021-02-21T22:09:34.182630103 0.056260s notice: Listening on driver address: 127.0.0.1
+2021-02-21T22:09:34.182630104 0.056261s notice: Listening on http address: 127.0.0.1
+2021-02-21T22:09:34.182630105 0.056262s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-21T22:09:34.182630106 0.056262s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-21T22:09:34.230797000 0.103932s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2021-02-21T22:09:35.388001000 1.261222s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 19.
+2021-02-21T22:09:35.393978600 1.267475s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 19. Latest log index is 54.
+2021-02-21T22:09:35.855297000 1.728389s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 19.
+2021-02-21T22:09:35.861042900 1.734077s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 19. Latest log index is 54.
+2021-02-22T00:38:39.642862300 8945.516397s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-22T00:38:39.647848600 8945.521404s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-22T00:38:40.232285400 8946.106126s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-22T00:38:40.233281600 8946.107172s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-22T18:44:13.323644300 0.031015s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-22T18:44:13.324563800 0.031520s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-22T18:44:13.324563801 0.032249s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-22T18:44:13.347441000 0.055261s info: Automatically using cache size of 3156 MB
+2021-02-22T18:44:13.356173300 0.063947s notice: Listening for intracluster connections on port 29015
+2021-02-22T18:44:13.400854100 0.108133s notice: Listening for client driver connections on port 28015
+2021-02-22T18:44:13.400854101 0.108248s notice: Listening for administrative HTTP connections on port 8080
+2021-02-22T18:44:13.400854102 0.108249s notice: Listening on cluster address: 127.0.0.1
+2021-02-22T18:44:13.400854103 0.108250s notice: Listening on driver address: 127.0.0.1
+2021-02-22T18:44:13.400854104 0.108255s notice: Listening on http address: 127.0.0.1
+2021-02-22T18:44:13.400854105 0.108255s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-22T18:44:13.400854106 0.108256s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-22T18:44:14.264272700 0.971284s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-22T18:44:15.137631300 1.844948s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 20.
+2021-02-22T18:44:15.146395500 1.853773s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 20. Latest log index is 57.
+2021-02-22T18:44:15.331277500 2.038531s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 20.
+2021-02-22T18:44:15.339487600 2.046990s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 20. Latest log index is 57.
+2021-02-22T22:07:44.657497200 0.018896s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-22T22:07:44.658495000 0.019172s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-22T22:07:44.658495001 0.019419s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-22T22:07:44.668464800 0.029750s info: Automatically using cache size of 2706 MB
+2021-02-22T22:07:44.673451700 0.034406s notice: Listening for intracluster connections on port 29015
+2021-02-22T22:07:44.694166300 0.055305s notice: Listening for client driver connections on port 28015
+2021-02-22T22:07:44.694166301 0.055462s notice: Listening for administrative HTTP connections on port 8080
+2021-02-22T22:07:44.694166302 0.055463s notice: Listening on cluster address: 127.0.0.1
+2021-02-22T22:07:44.694166303 0.055463s notice: Listening on driver address: 127.0.0.1
+2021-02-22T22:07:44.694166304 0.055468s notice: Listening on http address: 127.0.0.1
+2021-02-22T22:07:44.694166305 0.055469s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-22T22:07:44.694166306 0.055470s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-22T22:07:45.785593900 1.146308s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-22T22:07:46.054614300 1.415474s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 21.
+2021-02-22T22:07:46.059561900 1.420837s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 21. Latest log index is 60.
+2021-02-22T22:07:46.191795800 1.552893s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 21.
+2021-02-22T22:07:46.199351700 1.560607s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 21. Latest log index is 60.
+2021-02-24T16:14:48.287883100 0.029070s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-24T16:14:48.289021600 0.029484s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-24T16:14:48.289021601 0.029523s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-24T16:14:48.310815500 0.051866s info: Automatically using cache size of 1301 MB
+2021-02-24T16:14:48.319814500 0.060159s notice: Listening for intracluster connections on port 29015
+2021-02-24T16:14:48.358822300 0.100046s notice: Listening for client driver connections on port 28015
+2021-02-24T16:14:48.359821000 0.100150s notice: Listening for administrative HTTP connections on port 8080
+2021-02-24T16:14:48.359821001 0.100151s notice: Listening on cluster address: 127.0.0.1
+2021-02-24T16:14:48.359821002 0.100152s notice: Listening on driver address: 127.0.0.1
+2021-02-24T16:14:48.359821003 0.100152s notice: Listening on http address: 127.0.0.1
+2021-02-24T16:14:48.359821004 0.100153s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-24T16:14:48.359821005 0.100159s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-24T16:14:49.400501100 1.140925s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-24T16:14:49.425440300 1.166126s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 22.
+2021-02-24T16:14:49.433131300 1.173920s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 22. Latest log index is 63.
+2021-02-24T16:14:49.974809600 1.715304s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 22.
+2021-02-24T16:14:49.981390800 1.722020s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 22. Latest log index is 63.
+2021-02-24T16:34:38.436900700 0.015354s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-24T16:34:38.436900701 0.015451s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-24T16:34:38.438897600 0.016617s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-24T16:34:38.449907400 0.028263s info: Automatically using cache size of 1523 MB
+2021-02-24T16:34:38.454893500 0.032484s notice: Listening for intracluster connections on port 29015
+2021-02-24T16:34:38.476756300 0.054480s notice: Listening for client driver connections on port 28015
+2021-02-24T16:34:38.476756301 0.054625s notice: Listening for administrative HTTP connections on port 8080
+2021-02-24T16:34:38.476756302 0.054627s notice: Listening on cluster address: 127.0.0.1
+2021-02-24T16:34:38.476756303 0.054628s notice: Listening on driver address: 127.0.0.1
+2021-02-24T16:34:38.476756304 0.054634s notice: Listening on http address: 127.0.0.1
+2021-02-24T16:34:38.476756305 0.054635s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-24T16:34:38.476756306 0.054636s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-24T16:34:39.384230300 0.962074s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-24T16:34:39.794762500 1.372806s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 23.
+2021-02-24T16:34:39.800742100 1.378430s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 23. Latest log index is 66.
+2021-02-24T16:34:40.410754800 1.988602s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 23.
+2021-02-24T16:34:40.417313200 1.995245s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 23. Latest log index is 66.
+2021-02-24T16:38:26.233403000 0.012486s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-24T16:38:26.233403001 0.012645s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-24T16:38:26.233403002 0.012762s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-24T16:38:26.243130200 0.022363s info: Automatically using cache size of 960 MB
+2021-02-24T16:38:26.247550600 0.026449s notice: Listening for intracluster connections on port 29015
+2021-02-24T16:38:26.268140700 0.046907s notice: Listening for client driver connections on port 28015
+2021-02-24T16:38:26.268140701 0.047056s notice: Listening for administrative HTTP connections on port 8080
+2021-02-24T16:38:26.268140702 0.047058s notice: Listening on cluster address: 127.0.0.1
+2021-02-24T16:38:26.268140703 0.047059s notice: Listening on driver address: 127.0.0.1
+2021-02-24T16:38:26.268140704 0.047060s notice: Listening on http address: 127.0.0.1
+2021-02-24T16:38:26.268140705 0.047061s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-24T16:38:26.268140706 0.047062s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-24T16:38:26.901569400 0.681077s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-24T16:38:27.382580200 1.161309s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 24.
+2021-02-24T16:38:27.387568800 1.166871s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 24. Latest log index is 69.
+2021-02-24T16:38:28.087246500 1.866042s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 24.
+2021-02-24T16:38:28.092418100 1.871692s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 24. Latest log index is 69.
+2021-02-24T21:03:21.394496400 0.012903s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-24T21:03:21.394496401 0.013063s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-24T21:03:21.394496402 0.013266s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-24T21:03:21.405099500 0.023691s info: Automatically using cache size of 2383 MB
+2021-02-24T21:03:21.410197400 0.028597s notice: Listening for intracluster connections on port 29015
+2021-02-24T21:03:21.431598100 0.050007s notice: Listening for client driver connections on port 28015
+2021-02-24T21:03:21.431598101 0.050109s notice: Listening for administrative HTTP connections on port 8080
+2021-02-24T21:03:21.431598102 0.050115s notice: Listening on cluster address: 127.0.0.1
+2021-02-24T21:03:21.431598103 0.050116s notice: Listening on driver address: 127.0.0.1
+2021-02-24T21:03:21.431598104 0.050117s notice: Listening on http address: 127.0.0.1
+2021-02-24T21:03:21.431598105 0.050117s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-24T21:03:21.431598106 0.050118s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-24T21:03:22.207310800 0.825453s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-24T21:03:22.587715900 1.206050s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 25.
+2021-02-24T21:03:22.597054100 1.215669s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 25. Latest log index is 72.
+2021-02-24T21:03:23.062085600 1.680028s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 25.
+2021-02-24T21:03:23.067070500 1.685324s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 25. Latest log index is 72.
+2021-02-25T23:27:42.633837600 0.033140s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-25T23:27:42.633837601 0.033674s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-25T23:27:42.634837800 0.034518s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-25T23:27:42.660634200 0.059919s info: Automatically using cache size of 1833 MB
+2021-02-25T23:27:42.669042500 0.068062s notice: Listening for intracluster connections on port 29015
+2021-02-25T23:27:42.714001700 0.113924s notice: Listening for client driver connections on port 28015
+2021-02-25T23:27:42.714998500 0.114023s notice: Listening for administrative HTTP connections on port 8080
+2021-02-25T23:27:42.714998501 0.114029s notice: Listening on cluster address: 127.0.0.1
+2021-02-25T23:27:42.714998502 0.114029s notice: Listening on driver address: 127.0.0.1
+2021-02-25T23:27:42.714998503 0.114030s notice: Listening on http address: 127.0.0.1
+2021-02-25T23:27:42.714998504 0.114031s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-25T23:27:42.714998505 0.114031s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-25T23:27:43.571903500 0.971657s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-25T23:27:43.733861600 1.133251s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 26.
+2021-02-25T23:27:43.741896100 1.141530s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 26. Latest log index is 75.
+2021-02-25T23:27:44.244598300 1.643669s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 26.
+2021-02-25T23:27:44.250525500 1.649737s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 26. Latest log index is 75.
+2021-02-26T12:26:27.865719400 0.031461s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-02-26T12:26:27.866717300 0.031966s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-02-26T12:26:27.866717301 0.031999s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-02-26T12:26:27.891703800 0.057084s info: Automatically using cache size of 4874 MB
+2021-02-26T12:26:27.899880600 0.064559s notice: Listening for intracluster connections on port 29015
+2021-02-26T12:26:27.944383200 0.109154s notice: Listening for client driver connections on port 28015
+2021-02-26T12:26:27.944383201 0.109255s notice: Listening for administrative HTTP connections on port 8080
+2021-02-26T12:26:27.944383202 0.109257s notice: Listening on cluster address: 127.0.0.1
+2021-02-26T12:26:27.944383203 0.109262s notice: Listening on driver address: 127.0.0.1
+2021-02-26T12:26:27.944383204 0.109262s notice: Listening on http address: 127.0.0.1
+2021-02-26T12:26:27.944383205 0.109263s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-26T12:26:27.944383206 0.109263s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-02-26T12:26:29.232458300 1.398049s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-02-26T12:26:29.252437300 1.417250s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 27.
+2021-02-26T12:26:29.258693700 1.423468s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 27. Latest log index is 78.
+2021-02-26T12:26:29.626126600 1.790953s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 27.
+2021-02-26T12:26:29.632268700 1.797095s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 27. Latest log index is 78.
+2021-02-26T18:33:43.828363200 22040.437985s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T18:33:43.838365000 22040.448434s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T18:37:45.842807800 22282.452531s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T18:37:45.846797200 22282.456488s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T18:37:45.994999300 22282.605525s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T18:37:45.996994800 22282.606756s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T22:04:11.683743800 34672.635868s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-26T22:04:11.690729900 34672.643062s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-02-27T15:25:36.644188700 97160.245553s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2021-02-27T15:25:40.042677300 97163.643637s notice: Someone asked for the nonwhitelisted file "/DevMgmt/ProductConfigDyn.xml".  If this should be accessible, add it to the static web assets.
+2021-02-27T15:25:40.093541100 97163.694258s notice: Someone asked for the nonwhitelisted file "/DevMgmt/DiscoveryTree.xml".  If this should be accessible, add it to the static web assets.
+2021-04-16T18:09:55.260394300 0.033797s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2021-04-16T18:09:55.261391700 0.034311s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2021-04-16T18:09:55.261391701 0.034342s notice: Loading data from directory C:\\Users\\lazar\\Documents\\FHWN\\WS2020\\Web_Entwicklung_ILV\\GitHub\\Web_Entwicklung_WS2020\\RethinkDB\\rethinkdb-2.3.6\\rethinkdb-2.3.6\\rethinkdb_data
+2021-04-16T18:09:55.286350600 0.059748s info: Automatically using cache size of 3524 MB
+2021-04-16T18:09:55.294603200 0.067577s notice: Listening for intracluster connections on port 29015
+2021-04-16T18:09:55.342607900 0.115382s notice: Listening for client driver connections on port 28015
+2021-04-16T18:09:55.342607901 0.115495s notice: Listening for administrative HTTP connections on port 8080
+2021-04-16T18:09:55.342607902 0.115496s notice: Listening on cluster address: 127.0.0.1
+2021-04-16T18:09:55.342607903 0.115497s notice: Listening on driver address: 127.0.0.1
+2021-04-16T18:09:55.342607904 0.115498s notice: Listening on http address: 127.0.0.1
+2021-04-16T18:09:55.342607905 0.115498s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-16T18:09:55.342607906 0.115504s notice: Server ready, "LAPTOP_ATOD8PRQ_b17" bfc635a9-895b-4c17-96ea-29af2edd1194
+2021-04-16T18:09:56.093303800 0.866413s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2021-04-16T18:09:56.741108100 1.513819s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: Starting a new Raft election for term 28.
+2021-04-16T18:09:56.747923700 1.520658s info: Table 27bc8903-b5fb-4a8c-8ba8-a17d32baafca: This server is Raft leader for term 28. Latest log index is 81.
+2021-04-16T18:09:57.052081800 1.824770s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: Starting a new Raft election for term 28.
+2021-04-16T18:09:57.057562000 1.830080s info: Table d75250f9-a681-472d-aa1a-e08ef33df701: This server is Raft leader for term 28. Latest log index is 81.
+2021-04-16T18:27:28.660827500 1053.433751s notice: Server got Control-C; shutting down...
+2021-04-16T18:27:28.660827501 1053.433963s notice: Shutting down client connections...
+2021-04-16T18:27:28.660827502 1053.434062s notice: All client connections closed.
+2021-04-16T18:27:28.660827503 1053.434066s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-04-16T18:27:28.673598800 1053.446281s notice: Storage engine shut down.
