@@ -1,2 +1,6 @@
 *.js
 !_*.js
+rethinkdb-2.3.6/rethinkdb_data/27bc8903-b5fb-4a8c-8ba8-a17d32baafca
+rethinkdb-2.3.6/rethinkdb_data/d75250f9-a681-472d-aa1a-e08ef33df701
+rethinkdb-2.3.6/rethinkdb_data/log_file
+rethinkdb-2.3.6/rethinkdb_data/metadata
