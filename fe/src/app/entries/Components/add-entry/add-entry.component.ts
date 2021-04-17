@@ -57,6 +57,7 @@ export class AddEntryComponent implements OnInit {
     }
 
     private createEntry() {
+        
         this.entryService.create(this.form.value)
             .pipe(first())
             .subscribe(() => {
