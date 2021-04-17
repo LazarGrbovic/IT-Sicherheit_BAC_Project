@@ -5,6 +5,7 @@ import { AppComponent } from "../app.component";
 import { Router, ActivatedRoute } from '@angular/router';
 import { AbstractControlOptions, FormBuilder, FormGroup, Validators } from '@angular/forms';
 
+import hash from 'object-hash'
 
 import { UserService } from '@app/_services/user.service';
 import { DTOUserModel } from '../../../../sharedFolder/dto-user.model';
@@ -59,6 +60,10 @@ export class LoginComponent implements OnInit {
     private tryToLogin() {
        // https://stackoverflow.com/questions/43713558/how-to-get-a-single-value-from-formgroup 
        let username = this.form.controls['username'].value;
+
+       let passwordHash:string = hash.MD5(this.form.controls['password'].value);
+      this.form.controls['password'].setValue(passwordHash);
+
        this.userService.login(this.form.value)
                 .pipe(first())
                 .subscribe(() => {
