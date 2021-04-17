@@ -27,6 +27,7 @@ export class SpeedTestController {
         }
 
         const entry: DTOSpeedTest = new DTOSpeedTest(
+            data.userId,
             data.upload,
             data.download,
             data.provider,
@@ -82,6 +83,7 @@ export class SpeedTestController {
         }
 
         const entry: DTOSpeedTest = new DTOSpeedTest(
+            data.userId,
             data.upload,
             data.download,
             data.provider,
