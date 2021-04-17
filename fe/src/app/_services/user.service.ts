@@ -8,11 +8,15 @@ const baseUrl = `${environment.apiUrl}/user`;
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
+
+
+    public UserData!: DTOUserModel | null;
+   
     constructor(private http: HttpClient) { }
 
-    getAll() {
-        return this.http.get<DTOUserModel[]>(baseUrl);
-    }
+    // getAll() {
+    //     return this.http.get<DTOUserModel[]>(baseUrl);
+    // }
     
     getIdByUsername(username: string) {
         return this.http.get<DTOUserModelJustId>(`${baseUrl}/username/${username}`);
@@ -33,5 +37,9 @@ export class UserService {
 
     delete(id: string) {
         return this.http.delete(`${baseUrl}/${id}`);
+    }
+
+    logout() {
+        this.UserData = null;
     }
 }
