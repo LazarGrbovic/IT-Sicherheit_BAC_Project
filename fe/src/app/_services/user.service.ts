@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from '@environments/environment';
-import { DTOUserModel, DTOUserModelJustId } from '../../../../sharedFolder/dto-user.model';
+import { DTOUserModel, DTOUserModelJustId, DTOUserModelWithID } from '../../../../sharedFolder/dto-user.model';
 
 const baseUrl = `${environment.apiUrl}/user`;
 
@@ -10,7 +10,7 @@ const baseUrl = `${environment.apiUrl}/user`;
 export class UserService {
 
 
-    public UserData!: DTOUserModel | null;
+    public UserData!: DTOUserModelJustId | null;
    
     constructor(private http: HttpClient) { }
 

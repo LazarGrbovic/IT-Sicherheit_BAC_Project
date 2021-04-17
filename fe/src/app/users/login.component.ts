@@ -8,7 +8,7 @@ import { AbstractControlOptions, FormBuilder, FormGroup, Validators } from '@ang
 import hash from 'object-hash'
 
 import { UserService } from '@app/_services/user.service';
-import { DTOUserModel } from '../../../../sharedFolder/dto-user.model';
+import { DTOUserModel, DTOUserModelJustId } from '../../../../sharedFolder/dto-user.model';
 
 import { AlertService } from '@app/_services/alert.service';
 
@@ -64,7 +64,10 @@ export class LoginComponent implements OnInit {
        let passwordHash:string = hash.MD5(this.form.controls['password'].value);
       this.form.controls['password'].setValue(passwordHash);
 
-       this.userService.login(this.form.value)
+console.log("userService login is being called");
+console.log(this.userService.UserData);
+
+        this.userService.login(this.form.value)
                 .pipe(first())
                 .subscribe(() => {
                     this.alertService.success(`Login successful! Welcome ${username}`, { keepAfterRouteChange: true });                    
@@ -73,6 +76,8 @@ export class LoginComponent implements OnInit {
                 })
                 .add(() => this.loading = false);
         
-    }
-    
+                console.log("userService getIDbyUsername is being called");
+                let userID: string ="";
+                 this.userService.getIdByUsername(this.form.controls['username'].value).subscribe((val) => this.userService.UserData = val);
+    }   
 }
