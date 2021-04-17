@@ -1,5 +1,5 @@
 export class DTOSpeedTest {
-
+    userId: string;
     upload: number;
     download: number;
     provider: string;
@@ -11,6 +11,7 @@ export class DTOSpeedTest {
     note: number;    
 
     public constructor (
+        userId: string,
         upload: number,
         download: number,
         provider: string,
@@ -22,6 +23,7 @@ export class DTOSpeedTest {
         note: number) 
 
     { 
+        this.userId = userId;
         this.upload = upload;
         this.download = download;
         this.provider = provider;
@@ -36,6 +38,7 @@ export class DTOSpeedTest {
 
 export class DTOSpeedTestWithID {
 
+    userId:string;
     upload: number;
     download: number;
     provider: string;
@@ -51,7 +54,8 @@ export class DTOSpeedTestWithID {
         DTOSpeedTest: DTOSpeedTest,
         id: string) 
 
-    { 
+    {
+        this.userId = DTOSpeedTest.userId; 
         this.upload = DTOSpeedTest.upload;
         this.download = DTOSpeedTest.download;
         this.provider = DTOSpeedTest.provider;
