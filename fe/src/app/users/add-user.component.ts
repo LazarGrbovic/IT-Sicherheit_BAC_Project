@@ -3,6 +3,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { AbstractControlOptions, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 
+import hash from 'object-hash'
+
 import { UserService } from '@app/_services/user.service';
 import { AlertService } from '@app/_services/alert.service'
 import { MustMatch } from '@app/_helpers/must-match.validator';
@@ -61,6 +63,10 @@ export class AddUserComponent implements OnInit {
 
     private createUser() {
         let username = this.form.controls['username'].value;
+
+        let passwordHash:string = hash.MD5(this.form.controls['password'].value);
+        this.form.controls['password'].setValue(passwordHash);
+
         this.userService.create(this.form.value)
             .pipe(first())
             .subscribe(() => {
