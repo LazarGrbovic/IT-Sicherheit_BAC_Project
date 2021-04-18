@@ -4,6 +4,8 @@ import { EntryService } from "../../../_services/entry.service"
 import { DTOSpeedTestWithID} from "../../../../../../sharedFolder/dto-speedtest";
 import { first } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import { UserService } from '@app/_services/user.service';
+import { Router } from '@angular/router';
 
 
 
@@ -25,9 +27,13 @@ export class ChartTestComponent implements OnInit {
     private downloadChart!: Chart;
     private pingChart!: Chart;
 
-  constructor(private entryService: EntryService) { }
+  constructor(private entryService: EntryService, private userService: UserService, private router: Router) { }
 
   ngOnInit(): void {
+
+    if(this.userService.UserData == null){
+        this.router.navigate(['']);
+    }
           
     this.entryService.getAll()            
             .subscribe(allEntries => { 

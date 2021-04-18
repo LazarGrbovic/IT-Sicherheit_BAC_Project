@@ -7,6 +7,8 @@ import { EntryService } from '@app/_services/entry.service';
 import { AlertService } from '@app/_services/alert.service'
 import { MustMatch } from '@app/_helpers/must-match.validator';
 
+import { UserService } from '@app/_services/user.service';
+
 import { DTOSpeedTestWithID } from "../../../../../../sharedFolder/dto-speedtest"
 
 @Component({ templateUrl: 'edit-entry.component.html' })
@@ -15,17 +17,24 @@ export class EditEntryComponent implements OnInit {
     loading = false;
     submitted = false;
     id!: string;
-    entry!: DTOSpeedTestWithID;
+    entry!: DTOSpeedTestWithID;        
 
     constructor(
         private formBuilder: FormBuilder,
         private route: ActivatedRoute,
         private router: Router,
         private entryService: EntryService,
-        private alertService: AlertService
+        private alertService: AlertService,
+        private userService: UserService
     ) {}
+    
 
     ngOnInit() {
+
+        if(this.userService.UserData == null){
+            this.router.navigate(['']);
+        }
+
         this.id = this.route.snapshot.params['id'];
         
         this.form = this.formBuilder.group({

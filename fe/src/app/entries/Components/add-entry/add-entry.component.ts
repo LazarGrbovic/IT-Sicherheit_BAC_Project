@@ -7,6 +7,8 @@ import { EntryService } from '@app/_services/entry.service';
 import { AlertService } from '@app/_services/alert.service'
 import { MustMatch } from '@app/_helpers/must-match.validator';
 
+import { UserService } from '@app/_services/user.service';
+
 @Component({ templateUrl: 'add-entry.component.html' })
 export class AddEntryComponent implements OnInit {
     form!: FormGroup;    
@@ -18,10 +20,15 @@ export class AddEntryComponent implements OnInit {
         private route: ActivatedRoute,
         private router: Router,
         private entryService: EntryService,
-        private alertService: AlertService
+        private alertService: AlertService,
+        private userService: UserService
     ) {}
 
     ngOnInit() {
+
+        if(this.userService.UserData == null){
+            this.router.navigate(['']);
+        }
         
         this.form = this.formBuilder.group({
             upload: ['', [Validators.pattern("^[0-9]*$"), Validators.required]],

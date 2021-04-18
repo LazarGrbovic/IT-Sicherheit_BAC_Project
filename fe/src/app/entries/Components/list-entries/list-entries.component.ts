@@ -5,6 +5,9 @@ import { EntryService } from '@app/_services/entry.service';
 import { DTOSpeedTest, DTOSpeedTestWithID } from '../../../../../../sharedFolder/dto-speedtest';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
+import { UserService } from '@app/_services/user.service';
+import { Router } from '@angular/router';
+
 
 @Component({ templateUrl: 'list-entries.component.html' })
 export class ListEntriesComponent implements OnInit {
@@ -32,9 +35,18 @@ export class ListEntriesComponent implements OnInit {
     queryAscDesc: any = "asc";      
     //   toStr = JSON.stringify;         
 
-    constructor(private entryService: EntryService, private fb: FormBuilder) {}
+    constructor(
+        private entryService: EntryService, 
+        private fb: FormBuilder, 
+        private userService: UserService,
+        private router: Router) {}
 
     ngOnInit() {
+
+        if(this.userService.UserData == null){
+            this.router.navigate(['']);
+        }
+
         this.entryService.getAll()
             .pipe(first())
             .subscribe(allEntries => this.entries = allEntries);   
