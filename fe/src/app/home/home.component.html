@@ -4,7 +4,7 @@
         <p>Random text will be inserted here <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus iste consectetur? Explicabo, est. Doloribus deserunt autem, doloremque laudantium sequi hic quibusdam laborum architecto porro cum in, asperiores cupiditate harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. In iusto sapiente dolorem quo laudantium repellendus illo impedit ut quas sunt exercitationem, libero voluptatibus vitae minus, distinctio illum excepturi nostrum asperiores! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptatum esse necessitatibus quae adipisci deleniti eius iure porro repellendus eveniet, corrupti nulla explicabo voluptates laborum dolorum facere hic tenetur! Saepe?</p>
         <p><a routerLink="/user/add">&gt;&gt; New to our website? Click here to register!</a></p>
         <p><a routerLink="/user/login">&gt;&gt; Already a member? Awesome, click here to login!</a></p>
-        <p><a routerLink="/entries">&gt;&gt; Manage Speed Test Entries</a></p>
-        <p><a routerLink="/entries/statistics">&gt;&gt; You like more to look at pie chart than raw data? Awesome, click here!</a></p>
+        <p><a *ngIf="loggedIn" routerLink="/entries">&gt;&gt; Manage Speed Test Entries</a></p>
+        <p><a *ngIf="loggedIn" routerLink="/entries/statistics">&gt;&gt; You like more to look at pie chart than raw data? Awesome, click here!</a></p>
     </div>
 </div>
