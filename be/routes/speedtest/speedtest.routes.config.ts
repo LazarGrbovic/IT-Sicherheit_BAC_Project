@@ -34,28 +34,29 @@ export class SpeedTestRoutes extends CommonRoutesConfig {
                     next();
                 }
             )
-            .get((req: express.Request, res: express.Response) => {
+        //     .get((req: express.Request, res: express.Response) => {
 
-                // http://expressjs.com/en/api.html [Section req.query]
-                // https://stackoverflow.com/questions/34704593/express-routes-parameters
-                var query = JSON.stringify(req.query);
+        //         // http://expressjs.com/en/api.html [Section req.query]
+        //         // https://stackoverflow.com/questions/34704593/express-routes-parameters
+        //         var query = JSON.stringify(req.query);
 
-                this.debugLog(`SortEntries Route req.query: ${req.query}`)
-                this.debugLog(`SortEntries Route JSON.stringify(req.query) => QUERY: ${query}`)
-                this.debugLog(`SortEntries Route req.query.sortByColumn => QUERY: ${req.query.sortByColumn}`)
+        //         this.debugLog(`SortEntries Route req.query: ${req.query}`)
+        //         this.debugLog(`SortEntries Route JSON.stringify(req.query) => QUERY: ${query}`)
+        //         this.debugLog(`SortEntries Route req.query.sortByColumn => QUERY: ${req.query.sortByColumn}`)
                 
-                if (req.query.sortByColumn != "" && req.query.sortByColumn != undefined && req.query.sortByColumn != null && req.query.sortByColumn.length != 0) {
-                    this.debugLog(`QUERY IS NOT EMPTY`)
-                    this.controller.getSortedEntries(req, res);
-                }
+            //     if (req.query.sortByColumn != "" && req.query.sortByColumn != undefined && req.query.sortByColumn != null && req.query.sortByColumn.length != 0) {
+            //         this.debugLog(`QUERY IS NOT EMPTY`)
+            //         this.controller.getSortedEntries(req, res);
+            //     }
                 
-                else{
-                    this.debugLog("QUERY IS EMPTY")
-                    this.controller.getAllEntriesData(req, res);
-                }
+            //     else{
+            //         this.debugLog("QUERY IS EMPTY")
+            //         this.controller.getAllEntriesData(req, res);
+            //     }
                 
-            })
+            // })
             .post((req: express.Request, res: express.Response) => {
+                console.log('create entry received');
                 this.controller.addNewEntry(req, res);
             })
             
@@ -79,7 +80,23 @@ export class SpeedTestRoutes extends CommonRoutesConfig {
             })
             .delete((req: express.Request, res: express.Response) => {
                 this.controller.deleteEntry(req, res);
-            });                
+            });       
+            
+            this.app
+            .route("/speedtestdata/:userID")
+            .all(
+                (
+                req: express.Request,
+                res: express.Response,
+                next: express.NextFunction
+                ) => {
+                    next();
+                }
+            )
+            .get((req: express.Request, res: express.Response) => {
+                console.log('data for user is retrieved');
+                this.controller.getAllEntriesData(req, res);
+            });     
 
         return this.app;
     }

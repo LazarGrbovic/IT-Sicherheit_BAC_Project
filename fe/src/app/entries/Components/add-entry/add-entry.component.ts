@@ -8,6 +8,7 @@ import { AlertService } from '@app/_services/alert.service'
 import { MustMatch } from '@app/_helpers/must-match.validator';
 
 import { UserService } from '@app/_services/user.service';
+import { DTOSpeedTest } from '../../../../../../sharedFolder/dto-speedtest';
 
 @Component({ templateUrl: 'add-entry.component.html' })
 export class AddEntryComponent implements OnInit {
@@ -64,13 +65,28 @@ export class AddEntryComponent implements OnInit {
     }
 
     private createEntry() {
-        
-        this.entryService.create(this.form.value)
+        if(this.userService.UserData != null){
+
+            let entry:DTOSpeedTest = new DTOSpeedTest(
+            this.userService.UserData.id,
+            this.form.controls['upload'].value,
+            this.form.controls['download'].value,
+            this.form.controls['provider'].value,
+            this.form.controls['testProvider'].value,
+            this.form.controls['ping'].value,
+            this.form.controls['datum'].value,
+            this.form.controls['os'].value,
+            this.form.controls['comment'].value,
+            this.form.controls['note'].value
+        )
+
+        this.entryService.create(entry)
             .pipe(first())
             .subscribe(() => {
                 this.alertService.success('Entry added', { keepAfterRouteChange: true });
                 this.router.navigate(['../'], { relativeTo: this.route });
             })
             .add(() => this.loading = false);
-    }    
+    }   
+ }
 }

@@ -46,13 +46,13 @@ export class ListEntriesComponent implements OnInit {
         if(this.userService.UserData == null){
             this.router.navigate(['']);
         }
-
-        this.entryService.getAll()
+else{
+        this.entryService.getAll(this.userService.UserData.id)
             .pipe(first())
             .subscribe(allEntries => this.entries = allEntries);   
             console.log(`Type of entries: ${typeof(this.entries)}`);
             console.log(`Type of entries: ${typeof(this.entries.length)}`);     
-    }
+    }}
 
     deleteEntry(id: string) {
         const entry = this.entries.find(x => x.id === id);

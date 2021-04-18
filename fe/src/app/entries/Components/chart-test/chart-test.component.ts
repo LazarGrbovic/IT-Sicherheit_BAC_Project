@@ -34,8 +34,8 @@ export class ChartTestComponent implements OnInit {
     if(this.userService.UserData == null){
         this.router.navigate(['']);
     }
-          
-    this.entryService.getAll()            
+     else{     
+    this.entryService.getAll(this.userService.UserData.id)            
             .subscribe(allEntries => { 
                 console.log(`allEntries: ${allEntries.length}`);
                 console.log(`allEntries: ${allEntries[0].note}`); 
@@ -47,7 +47,7 @@ export class ChartTestComponent implements OnInit {
     console.log(typeof(this.speedTestEntries));
     
     console.log(`Before creating chart ${this.count2}`)   
-
+        }
   }
 
   handleEntries(DTO: DTOSpeedTestWithID[]) {

@@ -21,53 +21,70 @@ export class SpeedTestController {
 
     public async addNewEntry(req: Request, res: Response) {
         const data: any = req.body;
+
+console.log(data);
+
         if (!this.validateNewData(data)) {
+            console.log('validation failed');
             res.status(400).send(data);
             return;
         }
 
-        const entry: DTOSpeedTest = new DTOSpeedTest(
-            data.userId,
-            data.upload,
-            data.download,
-            data.provider,
-            data.testProvider,
-            data.ping,
-            data.datum,
-            data.os,
-            data.comment,
-            data.note
-        );
+        // console.log('field note not allowed');
 
-        if (this.areFieldsEmpty(entry)) {
+        // const entry: DTOSpeedTest = new DTOSpeedTest(
+        //     data.userId,
+        //     data.upload,
+        //     data.download,
+        //     data.provider,
+        //     data.testProvider,
+        //     data.ping,
+        //     data.datum,
+        //     data.os,
+        //     data.comment,
+        //     data.note
+        // );
+
+        if (this.areFieldsEmpty(data)) {
+            console.log('fields empty');
             res.status(400).send("Some of the fields are empty!");
             return;
         }
 
-        if (!this.isNoteFieldAllowed(entry)) {
+        if (!this.isNoteFieldAllowed(data)) {
+            console.log('field note not allowed');
+
             res.status(400).send("Note value not allowed! Allowed values: [1 2 3 4 5]");
             return;
         }
 
-        if (!this.areNumberFieldsAllowed(entry)) {
+        if (!this.areNumberFieldsAllowed(data)) {
+            console.log('fields number not allowed');
+
             res.status(400).send("Some of the field numbers are not integers!");
             return;
         }
 
-        if (!this.isDateFieldLengthCorrect(entry)) {
+        if (!this.isDateFieldLengthCorrect(data)) {
+            console.log('field date not allowed');
+
             res.status(400).send("Date field is not correct!");
             return;
         }
 
-        if (!this.isMinimumLengthCorrect(entry)) {
+        if (!this.isMinimumLengthCorrect(data)) {
+            console.log('minimum length note not allowed');
+
             res.status(400).send("No field except 'note' can have length of 1!");
             return;
         }      
         
-        
-        var result = await this.dbAccess.addSpeedtestAsync(entry);
+        console.log('trying to call addSpeedTest');
+        var result = await this.dbAccess.addSpeedtestAsync(data);
 
         if (!result) {
+            console.log('could not add');
+
             res.status(403).send("Could not add the entry.");
         } else {
             res.status(200).send(result);
@@ -174,7 +191,8 @@ export class SpeedTestController {
     }
 
     public async getAllEntriesData(req: Request, res: Response) {
-        const result = await this.dbAccess.getSpeedTestsAsync();
+        let id = req.params.userID;
+        const result = await this.dbAccess.getSpeedTestsByUserIDAsync(id);
 
         res.status(200).send(result);
     }
@@ -247,6 +265,7 @@ export class SpeedTestController {
 
     private validateNewData(object: any): boolean {
         const validData: string[] = [
+            "userID",
             "upload",
             "download",
             "provider",

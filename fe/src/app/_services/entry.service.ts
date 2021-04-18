@@ -11,8 +11,8 @@ const baseUrl = `${environment.apiUrl}/speedtestdata`;
 export class EntryService {
     constructor(private http: HttpClient) { }
 
-    getAll() {
-        return this.http.get<DTOSpeedTestWithID[]>(baseUrl);
+    getAll(userID:string) {
+        return this.http.get<DTOSpeedTestWithID[]>(`${baseUrl}/${userID}`);
     }
 
     getSortedEntries(column: string, ascDescOption: string) {

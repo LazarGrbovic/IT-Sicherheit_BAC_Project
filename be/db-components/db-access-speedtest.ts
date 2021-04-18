@@ -25,7 +25,12 @@ export class SpeedTestDataAccess {
         return await this.dataAccess.createTable(this.speedTestTable);
     }
 
-    public async getSpeedTestsAsync(userId: string) : Promise<DTOSpeedTestWithID[]>{
+    public async getSpeedTestsAsync() : Promise<DTOSpeedTestWithID[]>{
+   
+         return await r.table(this.speedTestTable).run(this.dataAccess.getConnection()); 
+    }
+
+    public async getSpeedTestsByUserIDAsync(userId: string) : Promise<DTOSpeedTestWithID[]>{
 
         return await r.table(this.speedTestTable).filter({userId: userId}).run(this.dataAccess.getConnection());
         // return await r.table(this.speedTestTable).get(userId).run(this.dataAccess.getConnection());       
@@ -39,8 +44,8 @@ export class SpeedTestDataAccess {
         return await r.table(this.speedTestTable).get(stringId).run(this.dataAccess.getConnection());
     }
     
-    public async checkIfSpeedTestExists(userId: string, id: string) : Promise<boolean> {
-        const userEntries: DTOSpeedTestWithID[] = await this.getSpeedTestsAsync(userId);
+    public async checkIfSpeedTestExists( id: string) : Promise<boolean> {
+        const userEntries: DTOSpeedTestWithID[] = await this.getSpeedTestsAsync();
         userEntries.forEach((entry) => {
             if (entry.id == id) {
                 return true;
