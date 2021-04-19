@@ -83,7 +83,7 @@ export class SpeedTestRoutes extends CommonRoutesConfig {
             });       
             
             this.app
-            .route("/speedtestdata/:userID")
+            .route("/speedtestdata/userID/:userID")
             .all(
                 (
                 req: express.Request,

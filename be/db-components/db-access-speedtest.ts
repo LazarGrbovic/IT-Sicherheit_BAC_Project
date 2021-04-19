@@ -31,7 +31,7 @@ export class SpeedTestDataAccess {
     }
 
     public async getSpeedTestsByUserIDAsync(userId: string) : Promise<DTOSpeedTestWithID[]>{
-
+    this.debugLog('getSpeedTestsByUserIDAsync called, userID ${userID}');
         return await r.table(this.speedTestTable).filter({userId: userId}).run(this.dataAccess.getConnection());
         // return await r.table(this.speedTestTable).get(userId).run(this.dataAccess.getConnection());       
         // return await r.table(this.speedTestTable).run(this.dataAccess.getConnection()); 

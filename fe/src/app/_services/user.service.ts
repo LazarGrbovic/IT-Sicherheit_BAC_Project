@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router, ActivatedRoute } from '@angular/router';
 
 import { environment } from '@environments/environment';
 import { DTOUserModel, DTOUserModelJustId, DTOUserModelWithID } from '../../../../sharedFolder/dto-user.model';
@@ -12,7 +13,7 @@ export class UserService {
 
     public UserData!: DTOUserModelJustId | null;
    
-    constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient, private router: Router) { }
 
     // getAll() {
     //     return this.http.get<DTOUserModel[]>(baseUrl);
@@ -41,5 +42,8 @@ export class UserService {
 
     logout() {
         this.UserData = null;
+        this.router.navigate(['home']);
+        console.log(this.UserData);
+
     }
 }

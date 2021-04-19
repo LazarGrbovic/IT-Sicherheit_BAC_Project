@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { AbstractControlOptions, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
+import hash from 'object-hash'
 
 import { UserService } from '@app/_services/user.service';
 import { AlertService } from '@app/_services/alert.service'
@@ -58,6 +59,9 @@ export class EditUserComponent implements OnInit {
     }
     
     private updateUser() {
+        let passwordHash:string = hash.MD5(this.form.controls['password'].value);
+        this.form.controls['password'].setValue(passwordHash);
+
         this.userService.update(this.id, this.form.value)
             .pipe(first())
             .subscribe(() => {

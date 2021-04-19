@@ -12,7 +12,7 @@ export class EntryService {
     constructor(private http: HttpClient) { }
 
     getAll(userID:string) {
-        return this.http.get<DTOSpeedTestWithID[]>(`${baseUrl}/${userID}`);
+        return this.http.get<DTOSpeedTestWithID[]>(`${baseUrl}/userID/${userID}`);
     }
 
     getSortedEntries(column: string, ascDescOption: string) {

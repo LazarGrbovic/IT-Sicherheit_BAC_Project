@@ -5,6 +5,7 @@ import { AlertService } from '@app/_services/alert.service';
 import { UserService } from "@app/_services/user.service";
 import { first } from 'rxjs/operators';
 import { DTOUserModelJustId } from "../../../sharedFolder/dto-user.model"
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({ selector: 'app', templateUrl: 'app.component.html' })
 export class AppComponent { 
@@ -14,7 +15,7 @@ export class AppComponent {
     public showLogout:boolean = false;
     version = VERSION.full;
     dialogRef!: any;
-    constructor(public dialog: MatDialog, private alertService: AlertService, private userService: UserService) {} 
+    constructor(public dialog: MatDialog, private alertService: AlertService, private userService: UserService, private router:Router) {} 
   
   openDialog(): void { 
     this.dialogRef = this.dialog.open(DialogComponent, { 
@@ -39,7 +40,8 @@ export class AppComponent {
     if (confirm("Do you want to log out?")) {      
       this.alertService.info("You are logged out now");  
       this.showLogout = false;
-      this.username = "";
+      this.userService.UserData = null;
+      this.router.navigate(['home']);
     }  
   }
 

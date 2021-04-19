@@ -191,6 +191,7 @@ console.log(data);
     }
 
     public async getAllEntriesData(req: Request, res: Response) {
+        console.log('getAllEntriesData reached, trying to call db');
         let id = req.params.userID;
         const result = await this.dbAccess.getSpeedTestsByUserIDAsync(id);
 
