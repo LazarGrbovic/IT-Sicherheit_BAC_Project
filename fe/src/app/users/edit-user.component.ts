@@ -29,7 +29,10 @@ export class EditUserComponent implements OnInit {
     ) {}
 
     ngOnInit() {       
-        
+           if (this.userService.UserData == null) {
+             this.router.navigate(['']);
+           }
+
         this.id = this.route.snapshot.params['id'];        
         this.form = this.formBuilder.group({
             username: ['', [Validators.required, Validators.minLength(2)]],
