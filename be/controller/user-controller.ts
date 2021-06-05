@@ -41,8 +41,7 @@ export class UserController {
         }
 
     if (await this.dbAccess.checkIfUsernameIsFreeAsync(data.username)) {
-        const user = new DTOUserModel(data.username, data.password);
-        if(await this.dbAccess.updateUser(new DTOUserModelWithID(data.username, data.password, req.params.id)))
+        if(await this.dbAccess.updateUser(new DTOUserModelWithID(data.username, data.password, req.params.id, data.newPassword)))
         {
             res.status(200).send(true);
         } 
