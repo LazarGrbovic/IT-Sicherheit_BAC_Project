@@ -44,6 +44,5 @@ export class UserService {
         this.UserData = null;
         this.router.navigate(['home']);
         console.log(this.UserData);
-
     }
 }

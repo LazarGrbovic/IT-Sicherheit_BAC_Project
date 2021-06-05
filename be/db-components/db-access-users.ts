@@ -30,7 +30,7 @@ export class UsersDbAccess {
 
     public async updateUserAsync(user : DTOUserModelWithID) : Promise<boolean>{              
         this.debugLog(`Inside updateMethod =>    id = ${user.id}`)                
-        var result = await r.table(this.usersTable).get(user.id).update(user).run(this.dataAccess.getConnection());
+        var result = await r.table(this.usersTable).filter({id: user.id, password: user.password}).update({username: user.username, password: user.newPassword}, {returnChanges: true}).run(this.dataAccess.getConnection());
         if(result.replaced < 1){
             return false;
         }
@@ -97,14 +97,15 @@ export class UsersDbAccess {
     
     public async updateUser(user: DTOUserModelWithID) {
         this.debugLog(`Updating user NEW USERNAME: ${user.username}`)
-        this.debugLog(`Updating user NEW PASSWORD: ${user.password}`)
+        this.debugLog(`Updating user OLD PASSWORD: ${user.password}`)
+        this.debugLog(`Updating user NEW PASSWORD: ${user.newPassword}`)
         this.debugLog(`Updating user NEW ID: ${user.id}`)
         var valid = await this.checkIfUsernameIsFreeAsync(user.getUserName());
         if (!valid) {
             return false;
         }
 
-        var result = await r.table(this.usersTable).get(user.id).update(user).run(this.dataAccess.getConnection());
+        var result = await r.table(this.usersTable).filter({id: user.id, password: user.password}).update({username: user.username, password: user.newPassword}, {returnChanges: true}).run(this.dataAccess.getConnection());
         if(result.replaced < 1){
             return false;
         }
@@ -167,5 +168,4 @@ export class UsersDbAccess {
         this.debugLog("Converted to DTO");
         return dtos;
     }
-    
 }

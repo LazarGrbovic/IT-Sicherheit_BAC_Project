@@ -33,7 +33,8 @@ export class EditUserComponent implements OnInit {
         this.id = this.route.snapshot.params['id'];        
         this.form = this.formBuilder.group({
             username: ['', [Validators.required, Validators.minLength(2)]],
-            password: ['', [Validators.required, Validators.minLength(2)]],            
+            password: ['', [Validators.required, Validators.minLength(2)]], 
+            newPassword: ['', [Validators.required, Validators.minLength(2)]],            
             email: ['', [Validators.required, Validators.email]]                     
         });
        
@@ -59,9 +60,11 @@ export class EditUserComponent implements OnInit {
     }
     
     private updateUser() {
-        let passwordHash:string = hash.MD5(this.form.controls['password'].value);
-        this.form.controls['password'].setValue(passwordHash);
-
+        let oldPasswordHash:string = hash.MD5(this.form.controls['password'].value);
+        let newPasswordHash:string = hash.MD5(this.form.controls['newPassword'].value);
+        this.form.controls['password'].setValue(oldPasswordHash);
+        this.form.controls['newPassword'].setValue(newPasswordHash);
+        
         this.userService.update(this.id, this.form.value)
             .pipe(first())
             .subscribe(() => {
