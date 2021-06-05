@@ -28,8 +28,7 @@ export class EditUserComponent implements OnInit {
         private alertService: AlertService
     ) {}
 
-    ngOnInit() {       
-        
+    ngOnInit() {   
         this.id = this.route.snapshot.params['id'];        
         this.form = this.formBuilder.group({
             username: ['', [Validators.required, Validators.minLength(2)]],
@@ -61,8 +60,8 @@ export class EditUserComponent implements OnInit {
     private updateUser() {
         let passwordHash:string = hash.MD5(this.form.controls['password'].value);
         this.form.controls['password'].setValue(passwordHash);
-
-        this.userService.update(this.id, this.form.value)
+        
+        this.userService.update(this.id, this.form.controls['username'].value, this.form.controls['password'].value)
             .pipe(first())
             .subscribe(() => {
                 this.alertService.success('User updated', { keepAfterRouteChange: true });

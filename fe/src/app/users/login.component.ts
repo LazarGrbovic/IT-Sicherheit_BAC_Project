@@ -11,6 +11,7 @@ import { UserService } from '@app/_services/user.service';
 import { DTOUserModel, DTOUserModelJustId } from '../../../../sharedFolder/dto-user.model';
 
 import { AlertService } from '@app/_services/alert.service';
+import { Token } from '../../../../sharedFolder/token'
 
 @Component({ templateUrl: 'login.component.html' })
 export class LoginComponent implements OnInit {
@@ -69,7 +70,9 @@ console.log(this.userService.UserData);
 
         this.userService.login(this.form.value)
                 .pipe(first())
-                .subscribe(() => {
+                .subscribe((response) => {
+                    let token = response as Token;
+                    this.userService.storeToken(token);
                     this.alertService.success(`Login successful! Welcome ${username}`, { keepAfterRouteChange: true });                    
                     this.router.navigate([''], { relativeTo: this.route });
                     this.myApp.enableLogout(username);

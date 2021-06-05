@@ -96,6 +96,7 @@ export class UsersDbAccess {
     }
     
     public async updateUser(user: DTOUserModelWithID) {
+        console.log('ATTEMPTING TO UPDATE USER.');
         this.debugLog(`Updating user NEW USERNAME: ${user.username}`)
         this.debugLog(`Updating user NEW PASSWORD: ${user.password}`)
         this.debugLog(`Updating user NEW ID: ${user.id}`)
@@ -127,6 +128,8 @@ export class UsersDbAccess {
     }
 
     public async checkIfUsernameIsFreeAsync(username: string): Promise<boolean> {
+        console.log('CHECK IF USERNAME IS AVAILABLE');
+
         const users: DTOUserModel[] = await this.retrieveAllUsersAsync();
         let isValid = true;
         users.forEach((user) => {
