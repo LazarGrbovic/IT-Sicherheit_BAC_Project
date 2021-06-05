@@ -2,6 +2,8 @@ import { Request, Response } from "express";
 import { UsersDbAccess } from "../db-components/db-access-users";
 import { DTOUserModel, DTOUserModelWithID } from "../../sharedFolder/dto-user.model";
 import debug from "debug";
+import { Token } from '../../sharedFolder/token'
+import { ChangeUserRequest } from '../../sharedFolder/changeUserRequest'
 
 export class UserController {
     private readonly dbAccess: UsersDbAccess;
@@ -34,16 +36,20 @@ export class UserController {
 
     public async updateUser(req: Request, res: Response) {
         this.debugLog("INSIDE UPDATE USER");
-    const data = req.body;
-    if (!this.validateData(data)) {
+    let data = req.body as ChangeUserRequest;
+
+    if (!await this.validateModifiedData(data)) {
         res.status(400).send(data);
         return;
         }
 
-    if (await this.dbAccess.checkIfUsernameIsFreeAsync(data.username)) {
-        const user = new DTOUserModel(data.username, data.password);
-        if(await this.dbAccess.updateUser(new DTOUserModelWithID(data.username, data.password, req.params.id)))
+        console.log('DATA VALIDATED');
+        
+    if (await this.dbAccess.checkIfUsernameIsFreeAsync(data.newUsername)) {
+        const user = new DTOUserModel(data.newUsername, data.newPassword);
+        if(await this.dbAccess.updateUser(new DTOUserModelWithID(data.newUsername, data.newPassword, req.params.id)))
         {
+            console.log('SHOULD HAVE SUCCEEDED');
             res.status(200).send(true);
         } 
         else {
@@ -68,7 +74,11 @@ export class UserController {
             } 
         else 
             {
-                res.status(200).send(result);
+                let id = await this.dbAccess.getUserIdByUsername(user.username);
+                let token = new Token(id.id, user.username);
+                let jsonToken = JSON.stringify(token);
+                console.debug(jsonToken);
+                res.status(200).send(jsonToken);
             }
     }
 
@@ -96,10 +106,27 @@ export class UserController {
     }
 
     private validateData(object: any): boolean {
+        console.debug("VALIDATING DATA");
+        console.log(object);
         const validData: string[] = ["username", "password"];
         let resultUserName = Object.keys(object).findIndex((k) => k === validData[0]) > -1;
         let resultPassword = Object.keys(object).findIndex((k) => k === validData[1]) > -1;
 
         return resultUserName && resultPassword;
+    }
+
+    private async validateModifiedData(request : ChangeUserRequest) : Promise<boolean>{
+        
+        console.log(request);
+
+        if (request === null || request.token.username == ''){
+            return false;
+        }
+
+        let expectedID = await this.dbAccess.getUserIdByUsername(request.token.username);
+        let isValid = expectedID.id == request.token.audience;
+
+        console.log(isValid);
+        return isValid;
     }
 }

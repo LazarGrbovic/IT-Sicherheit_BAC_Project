@@ -49,13 +49,13 @@ export class UsersRoutes extends CommonRoutesConfig {
         this.app
             .route('/user/:id')
             .all((req: express.Request, res: express.Response, next: express.NextFunction) => {
+                console.debug('In User/ID');
                 next();
             })
             .put((req: express.Request, res: express.Response) => {
                 this.controller.updateUser(req, res);
             });    
 
-        
         return this.app;
     }
 }
